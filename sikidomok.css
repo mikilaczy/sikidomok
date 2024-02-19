@@ -1,0 +1,16 @@
+body{
+    background-color: aquamarine;
+}
+div{
+    background-color: aqua;
+    border: 1cm;
+    margin: auto;
+    additive-symbols: -moz-element();
+    align-self: start;
+    -ms-high-contrast-adjust: auto;
+    line-break:normal;
+    margin-inline-start: 2%;
+    nav-down: current;
+    background-origin: padding-box;
+    
+}
