@@ -1,0 +1,19 @@
+A síkidom a sík egy zárt vonallal határolt része, vagy másképpen fogalmazva olyan alakzat, amelynek minden pontja egy síkban helyezkedik el. A síkidomok kétdimenziós alakzatok, amiknek hosszúsága és szélessége van.
+Síkidom például a négyzet, a háromszög vagy a kör.
+Néhány gyakori síkidom kerülete és területe az alábbi módokon számítható ki:
+négyzet kerülete: K=4*a (a a négyzet oldalának hossza)
+négyzet területe: T=a2
+téglalap kerülete: K=a*b*2 (a és b az egyes oldalak hossza)
+téglalap területe: T=a*b
+paralelogramma kerülete: K=a*b*2
+paralelogramma területe: T=a*ma (ma az a oldalhoz tartozó magasság)
+trapéz kerülete: K=a+b+c+d (a négy oldal hossza)
+trapéz területe: T=((a+c)*m)/2 (a és c a trapéz alapjai, m a magassága)
+deltoid kerülete: K=(a+b)*2
+deltoid területe: T=(e*f)/2 (e és f a deltoid két átlója)
+rombusz kerülete: K=4*a
+rombusz területe: T=a*ma vagy T=(e*f)/2 (ma az a oldalhoz tartozó magasság, e és f a rombusz két átlója)
+háromszög kerülete: K=a+b+c (a három oldalának hossza)
+háromszög területe: T =a*ma (ma az a oldalhoz tartozó magasság)
+kör kerülete: K=2*r*pi (r a kör sugara)
+kör területe: T =r2*pi
