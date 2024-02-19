@@ -1,1 +1,1 @@
-Kertész Márto, Pekny Márk, Laczy Miklós
+Kertész Márton, Pekny Márk, Laczy Miklós
