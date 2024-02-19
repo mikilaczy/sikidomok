@@ -17,7 +17,7 @@
     <p>négyzet területe: T=a2</p>
     <form class="search-form" id="search">
       <label class="is-hidden" for="search">Adja meg mekkorák az oldalai:  </label>
-      <input type="search" name="search" placeholder="A:  ">
+      <input type="nA" name="nA" placeholder="A:  ">
       <button type="submit" id="submit" class="search-button">
         <i class="material-icons icn-search">Számold ki</i>
       </button>
@@ -30,8 +30,8 @@
     <p>téglalap területe: T=a*b</p>
     <form class="search-form" id="search">
       <label class="is-hidden" for="search">Adja meg mekkorák az oldalai:  </label>
-      <input type="search" name="search" placeholder="A:  ">
-      <input type="search" name="search" placeholder="B:  ">
+      <input type="TeglaA" name="TeglaA" placeholder="A:  ">
+      <input type="TeglaB" name="TeglaB" placeholder="B:  ">
       <button type="submit" id="submit" class="search-button">
         <i class="material-icons icn-search">Számold ki</i>
       </button>
@@ -44,9 +44,9 @@
     <p>paralelogramma területe: T=a*ma (ma az a oldalhoz tartozó magasság)</p>
     <form class="search-form" id="search">
       <label class="is-hidden" for="search">Adja meg mekkorák az oldalai:  </label>
-      <input type="search" name="search" placeholder="A:  ">
-      <input type="search" name="search" placeholder="B:  ">
-      <input type="search" name="search" placeholder="A magasság:  ">
+      <input type="pA" name="pA" placeholder="A:  ">
+      <input type="pB" name="pB" placeholder="B:  ">
+      <input type="pma" name="pma" placeholder="ma:  ">
       <button type="submit" id="submit" class="search-button">
         <i class="material-icons icn-search">Számold ki</i>
       </button>
@@ -59,10 +59,10 @@
     <p>trapéz területe: T=((a+c)*m)/2 (a és c a trapéz alapjai, m a magassága)</p>
     <form class="search-form" id="search">
       <label class="is-hidden" for="search">Adja meg mekkorák az oldalai:  </label>
-      <input type="search" name="search" placeholder="A:  ">
-      <input type="search" name="search" placeholder="B:  ">
-      <input type="search" name="search" placeholder="C:  ">
-      <input type="search" name="search" placeholder="M  ">
+      <input type="tA" name="tA" placeholder="A:  ">
+      <input type="tB" name="tB" placeholder="B:  ">
+      <input type="tC" name="tC" placeholder="C:  ">
+      <input type="tma" name="tma" placeholder="ma  ">
       <button type="submit" id="submit" class="search-button">
         <i class="material-icons icn-search">Számold ki</i>
       </button>
@@ -75,10 +75,58 @@
     <p>deltoid területe: T=(e*f)/2 (e és f a deltoid két átlója)</p>
     <form class="search-form" id="search">
       <label class="is-hidden" for="search">Adja meg mekkorák az oldalai:  </label>
-      <input type="search" name="search" placeholder="A:  ">
-      <input type="search" name="search" placeholder="B:  ">
-      <input type="search" name="search" placeholder="E (átló):  ">
-      <input type="search" name="search" placeholder="F (átló)  ">
+      <input type="dA" name="dA" placeholder="A:  ">
+      <input type="dB" name="dB" placeholder="B:  ">
+      <input type="dE" name="dE" placeholder="E (átló):  ">
+      <input type="dF" name="dF" placeholder="F (átló)  ">
+      <button type="submit" id="submit" class="search-button">
+        <i class="material-icons icn-search">Számold ki</i>
+      </button>
+    </form>
+    <img src="" alt="">
+</div>
+<div>
+    <h1 class="main-title">Rombusz</h1>
+    <p>rombusz kerülete: K=4*a</p>
+    <p>rombusz területe: T=a*ma vagy T=(e*f)/2 (ma az a oldalhoz tartozó magasság, e és f a rombusz két átlója)</p>
+    <form class="search-form" id="search">
+      <label class="is-hidden" for="search">Adja meg mekkorák az oldalai:  </label>
+      <input type="rA" name="rA" placeholder="A:  ">
+      <input type="rma" name="rma" placeholder="ma:  ">
+      <input type="rE" name="rE" placeholder="E (átló):  ">
+      <input type="rF" name="rF" placeholder="F (átló)  ">
+      <button type="submit" id="submit" class="search-button">
+        <i class="material-icons icn-search">Számold ki</i>
+      </button>
+    </form>
+    <img src="" alt="">
+</div>
+<div>
+    <h1 class="main-title">Háromszög</h1>
+    <p>háromszög kerülete: K=a+b+c (a három oldalának hossza)</p>
+    <p>háromszög területe: T =a*ma (ma az a oldalhoz tartozó magasság)</p>
+    <form class="search-form" id="search">
+      <label class="is-hidden" for="search">Adja meg mekkorák az oldalai:  </label>
+      <input type="hA" name="hA" placeholder="A:  ">
+      <input type="hB" name="hB" placeholder="B:  ">
+      <input type="hC" name="hC" placeholder="C  ">
+      <input type="hma" name="hma" placeholder="ma  ">
+      <button type="submit" id="submit" class="search-button">
+        <i class="material-icons icn-search">Számold ki</i>
+      </button>
+    </form>
+    <img src="" alt="">
+</div>
+<div>
+    <h1 class="main-title">Kör</h1>
+    <p>kör kerülete: K=2*r*pi (r a kör sugara)</p>
+    <p>kör területe: T =r2*pi</p>
+    <form class="search-form" id="search">
+      <label class="is-hidden" for="search">Adja meg mekkorák az oldalai:  </label>
+      <input type="kA" name="kA" placeholder="A:  ">
+      <input type="kB" name="kB" placeholder="B:  ">
+      <input type="kC" name="kC" placeholder="C  ">
+      <input type="kma" name="kma" placeholder="ma  ">
       <button type="submit" id="submit" class="search-button">
         <i class="material-icons icn-search">Számold ki</i>
       </button>
