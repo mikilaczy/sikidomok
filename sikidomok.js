@@ -1,7 +1,8 @@
  console.log(trapez)
  console.log(negyzet)
 function negyzet (){
-
+   let tartalom="";
+document.getElementById("negyzet").innerHTML-tartalom;
 Nkerulet=0;
  Nterulet=0;
  var x=document.getElementById("search")
@@ -10,7 +11,7 @@ Nkerulet=0;
  
  var Nterulet=a*a;
  var Nkerulet=4*a;
- let tartalom=`
+ tartalom=`
  <p>A négyzet kerülete: ${Nkerulet}</p>
  <p>A négyzet területe: ${Nterulet}</p>
  `
@@ -82,16 +83,21 @@ function paraleogramma(){
 
          function deltoid(){
 
-            Tkerulet=0;
-             Tterulet=0;
-             let a=document.getElementsByName("tA").value
-             let b=document.getElementsByName("tB").value
-             let c=document.getElementsByName("tC").value
-             let d=document.getElementsByName("tD").value
-             let ma=document.getElementsByName("tma").value
+            Dkerulet=0;
+             Dterulet=0;
+             var x=document.getElementById("search4")
+             var xx=document.getElementById("search4.")
+             var xxx=document.getElementById("search4..")
+             var xxxx=document.getElementById("search4...")
              
-             Dterulet=((a+c)*ma)/2;
-             Dkerulet=a+b+c+d;
+             var a=x.value
+             var b=xx.value
+             var e=xxx.value
+             var f=xxxx.value
+             
+
+             Dterulet=(e*f)/2;
+             Dkerulet=(a*1+b*1)*2;
              let tartalom=`
              <p>A deltoid kerülete: ${Dkerulet}</p>
              <p>A deltoid területe: ${Dterulet}</p>
@@ -102,19 +108,61 @@ function paraleogramma(){
     
              function rombusz(){
     
-                Tkerulet=0;
-                 Tterulet=0;
-                 let a=document.getElementsByName("tA").value
-                 let b=document.getElementsByName("tB").value
-                 let c=document.getElementsByName("tC").value
-                 let d=document.getElementsByName("tD").value
-                 let ma=document.getElementsByName("tma").value
+                Rkerulet=0;
+                 Rterulet=0;
+                 var x=document.getElementById("search5")
+                 var xx=document.getElementById("search5.")
+                
+                 var a=x.value
+                 var ma=xx.value
+                
+               
                  
-                 Rterulet=((a+c)*ma)/2;
-                 Rkerulet=a+b+c+d;
+                 Rterulet=a*ma;
+                 Rkerulet=4*a;
                  let tartalom=`
                  <p>A rombusz kerülete: ${Rkerulet}</p>
                  <p>A rombusz területe: ${Rterulet}</p>
                  `
                  document.getElementById("rombusz").innerHTML+=tartalom;
-                 console.log(Trakerulet);}
+                 console.log(Rkerulet);}
+
+                 function haromszog(){
+    
+                  Hkerulet=0;
+                   Hterulet=0;
+                   var x=document.getElementById("search6")
+                   var xx=document.getElementById("search6.")
+                   var xxx=document.getElementById("search6..")
+                   var xxxx=document.getElementById("search6...")
+                   var a=x.value
+                   var b=xx.value
+                   var c=xxx.value
+                   var ma=xxxx.value
+                 
+                   Hterulet=(a*ma)/2;
+                   Hkerulet=a*1+b*1+c*1;
+                   let tartalom=`
+                   <p>A háromszög kerülete: ${Hkerulet}</p>
+                   <p>A háromszög területe: ${Hterulet}</p>
+                   `
+                   document.getElementById("haromszog").innerHTML+=tartalom;
+                   console.log(Hkerulet);}
+
+                   function kor(){
+    
+                     Kkerulet=0;
+                      Kterulet=0;
+                      var x=document.getElementById("search7")
+                     
+                      var r=x.value
+                      
+                    
+                      Kterulet=2*r*3.14;
+                      Kkerulet=r*r*3.14;
+                      let tartalom=`
+                      <p>A kör kerülete: ${Kkerulet}</p>
+                      <p>A kör területe: ${Kterulet}</p>
+                      `
+                      document.getElementById("kor").innerHTML+=tartalom;
+                      console.log(Kkerulet);}
