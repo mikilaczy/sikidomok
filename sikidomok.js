@@ -1,8 +1,8 @@
  console.log(trapez)
  console.log(negyzet)
 function negyzet (){
-   let tartalom="";
-document.getElementById("negyzet").innerHTML-tartalom;
+
+
 Nkerulet=0;
  Nterulet=0;
  var x=document.getElementById("search")
